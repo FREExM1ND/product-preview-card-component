@@ -15,8 +15,12 @@
   --spacing-16: 1rem;
   --spacing-8: 0.5rem;
   --spacing-4: 0.25rem;
-  --serif: "Fraunces", Times, serif;
-  --sans-serif: "Montserrat";
+  --font-size-32: 2rem;
+  --font-size-14: 0.875rem;
+  --font-size-13: 0.8125rem;
+  --font-size-12: 0.75rem;
+  --fraunces: "Fraunces", serif;
+  --montserrat: "Montserrat", sans-serif;
 }
 
 html {
@@ -43,11 +47,14 @@ li {
 
 body {
   background-color: var(--cream);
+  font-family: var(--montserrat);
+  color: var(--grey);
+  font-weight: 400;
 }
 
 main {
   margin: 5rem 0.75rem;
-  width: 93%;
+  width: 95%;
   border-radius: 0.5rem;
   background-color: var(--white);
 }
@@ -57,10 +64,43 @@ main {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
+.product-type {
+  line-height: 120%;
+  letter-spacing: 0.3125rem;
+  font-size: var(--font-size-12);
+}
+
 .product-listing {
   padding: var(--spacing-32);
   display: flex;
   flex-direction: column;
+}
+
+.product-name {
+  font-family: var(--fraunces);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.sale-price {
+  font-family: var(--fraunces);
+  font-size: 2rem;
+  color: var(--green-500);
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.125rem;
+  border-radius: 0.5rem;
+  border: solid 0 transparent;
+  background-color: var(--green-500);
+  color: var(--white);
+  font-family: var(--montserrat);
+  font-weight: 700;
+  gap: var(--spacing-8);
 }
 
 footer,

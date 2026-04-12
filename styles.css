@@ -85,7 +85,7 @@ main {
 
 .sale-price {
   font-family: var(--fraunces);
-  font-size: 2rem;
+  font-size: var(--font-size-32);
   color: var(--green-500);
 }
 

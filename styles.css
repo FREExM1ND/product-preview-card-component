@@ -82,7 +82,6 @@ body {
 
 .product-description {
   line-height: 160%;
-  font-weight: 400;
   font-size: var(--font-size-14);
 }
 
@@ -107,6 +106,12 @@ body {
   line-height: 120%;
   margin-left: var(--spacing-16);
   align-self: center;
+}
+
+.product-type,
+.product-description,
+.original-price {
+  font-weight: 500;
 }
 
 .add-to-cart {

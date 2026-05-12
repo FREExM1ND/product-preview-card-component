@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-product-preview-with-hover-and-focus-states-bTnX7sITwn)
-- Live Site URL: (https://freexm1nd.github.io/product-preview-card-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-product-preview-with-hover-and-focus-states-bTnX7sITwn)
+- [Live Site URL](https://freexm1nd.github.io/product-preview-card-component/)
 
 ## My process
 
